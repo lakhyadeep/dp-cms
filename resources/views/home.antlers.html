@@ -1,15 +1,17 @@
-<!-- {{sections}}
+{{sections}}
 
-{{partial src="partials/home/{type}"}}
+{{ partial src="partials/home/{type}" }}
 
-{{/sections}} -->
-
-
-{{ partial:home/hero}}
+{{/sections}}
 
 
-{{ partial:home/about}}
+{{# partial:home/hero #}}
 
-{{ partial:home/service}}
 
-{{ partial:home/portfolio}}
+{{# partial:home/about #}}
+
+{{# partial:home/service #}}
+
+{{# partial:home/portfolio #}}
+
+{{# partial:home/client #}}

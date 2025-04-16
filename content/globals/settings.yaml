@@ -1,0 +1,30 @@
+title: Settings
+data:
+  logo: img/logo.png
+  site_name: 'Digital Pilot'
+  meta_description: 'Digital Pilot'
+  address: 'Address 1'
+  contact_number: '1234567890'
+  email_id: example@digitalpilot.com
+  social:
+    -
+      id: m9jy1jwm
+      class_name: twitter-x
+      type: social
+      enabled: true
+      social_link: 'https://x.com/'
+    -
+      id: m9jy3qgm
+      class_name: facebook
+      type: social
+      enabled: true
+    -
+      id: m9jy3xss
+      class_name: instagram
+      type: social
+      enabled: true
+    -
+      id: m9jy42vh
+      class_name: linkedin
+      type: social
+      enabled: true

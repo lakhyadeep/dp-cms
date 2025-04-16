@@ -1,0 +1,13 @@
+title: 'Client Section'
+fields:
+  -
+    handle: client_logo
+    field:
+      container: assets
+      type: assets
+      display: 'Client Logo'
+  -
+    handle: client_links
+    field:
+      type: link
+      display: 'Client Links'

@@ -1,0 +1,18 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: copyright
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: Copyright
+              buttons:
+                - bold
+                - italic
+                - removeformat
+                - anchor
+              antlers: true

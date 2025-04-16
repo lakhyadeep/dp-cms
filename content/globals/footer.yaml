@@ -1,0 +1,9 @@
+title: Footer
+data:
+  copyright:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: 'Copyright © {{ now format="Y" }} {{settings:site_name}}. All rights reserved.'

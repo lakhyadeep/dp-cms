@@ -1,0 +1,22 @@
+title: 'Skill Section'
+fields:
+  -
+    handle: skill_title
+    field:
+      type: text
+      display: 'Skill Title'
+  -
+    handle: skill_sub_title
+    field:
+      type: textarea
+      display: 'Skill Sub Title'
+  -
+    handle: progress_bar_title
+    field:
+      type: text
+      display: 'Progress Bar Title'
+  -
+    handle: progress_bar_value
+    field:
+      type: text
+      display: 'Progress Bar Value'

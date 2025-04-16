@@ -1,0 +1,19 @@
+title: 'About Section'
+fields:
+  -
+    handle: about_title
+    field:
+      type: text
+      display: 'About Title'
+  -
+    handle: about_image
+    field:
+      container: assets
+      type: assets
+      display: 'About Image'
+  -
+    handle: about_description
+    field:
+      remove_empty_nodes: false
+      type: bard
+      display: 'About Description'

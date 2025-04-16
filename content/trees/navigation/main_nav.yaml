@@ -1,21 +1,12 @@
 tree:
   -
-    id: 8fd6e5b2-c538-4a5a-b43c-f17965d11624
-    title: Home
-    url: 'http://dp-cms.test'
+    id: b70837a8-b28b-45eb-8795-47c7cbdff891
+    entry: home
   -
-    id: e4fb53de-abc0-4582-8fa0-e9f3711d17ba
-    title: About
-    url: 'http://dp-cms.test/about'
+    id: 16930dc8-1dfa-4c5a-b845-a8cc31b411ac
+    entry: d1a1ceff-b246-49ec-8a31-3367b0ebf9e7
+    title: 'About Us'
   -
-    id: 3d450ef4-20c9-4df1-be65-9c329f0e6e75
-    title: Portfolio
-    url: 'http://dp-cms.test/portfolio'
-  -
-    id: 7e11361c-cfe2-47a5-8aaf-1ce22d52320d
-    title: Blog
-    url: 'http://dp-cms.test/blog'
-  -
-    id: 2a0419c8-9c4b-4bcb-beb6-b48978e28ddb
-    title: Contact
-    url: 'http://dp-cms.test/contact'
+    id: 7247dcb0-6133-40c7-87bd-c3f64bd0a04e
+    entry: c6cdb196-01b0-42ba-b7f3-31318d3bc4e9
+    title: 'Contact Us'

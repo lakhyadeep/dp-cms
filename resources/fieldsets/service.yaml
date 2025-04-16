@@ -1,0 +1,23 @@
+title: 'Service Section'
+fields:
+  -
+    handle: service_image
+    field:
+      container: assets
+      type: assets
+      display: 'Service Image'
+  -
+    handle: service_title
+    field:
+      type: text
+      display: 'Service Title'
+  -
+    handle: service_description
+    field:
+      type: textarea
+      display: 'Service Description'
+  -
+    handle: service_detail_page_link
+    field:
+      type: link
+      display: 'Service Detail Page Link'

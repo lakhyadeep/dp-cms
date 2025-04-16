@@ -1,0 +1,87 @@
+title: 'Page Builder'
+fields:
+  -
+    handle: sections
+    field:
+      type: replicator
+      display: Sections
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            hero:
+              display: 'Carousel Section'
+              fields:
+                -
+                  handle: carousel_images
+                  field:
+                    type: replicator
+                    display: 'Carousel Images'
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          hero:
+                            display: 'Carousel Image'
+                            fields:
+                              -
+                                import: hero
+            about:
+              display: 'About Section'
+              fields:
+                -
+                  import: about
+            service:
+              display: 'Services Section'
+              fields:
+                -
+                  handle: services
+                  field:
+                    type: replicator
+                    display: Services
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          service:
+                            display: Service
+                            fields:
+                              -
+                                import: service
+            client:
+              display: 'Clients Section'
+              fields:
+                -
+                  handle: client_title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: client_sub_title
+                  field:
+                    type: textarea
+                    display: 'Sub Title'
+                -
+                  handle: clients
+                  field:
+                    type: replicator
+                    display: Clients
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          clinet:
+                            display: Clinet
+                            fields:
+                              -
+                                import: client
+            team:
+              display: 'Team Section'
+              fields:
+                -
+                  import: team
+            skill:
+              display: 'Skill Section'
+              fields:
+                -
+                  import: skill

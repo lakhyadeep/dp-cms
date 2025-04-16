@@ -1,3 +1,7 @@
 super: true
 id: c3d53e4f-142f-4ab5-9c37-ba1b4b7c37db
 password_hash: $2y$12$UcGrSIHC7sE9ZxF/SZTvEOTlzML20eDI84SapI1oNSCra7q7Tm9m2
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

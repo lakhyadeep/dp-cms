@@ -1,0 +1,74 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Global Settings'
+        fields:
+          -
+            handle: logo
+            field:
+              max_files: 1
+              min_files: 1
+              container: assets
+              type: assets
+              display: Logo
+          -
+            handle: og_image
+            field:
+              container: assets
+              type: assets
+              display: 'OG Image'
+          -
+            handle: site_name
+            field:
+              type: text
+              display: 'Site Name'
+          -
+            handle: meta_description
+            field:
+              type: text
+              display: 'Meta Description'
+          -
+            handle: address
+            field:
+              type: textarea
+              display: Address
+          -
+            handle: contact_number
+            field:
+              type: text
+              display: 'Contact Number'
+          -
+            handle: email_id
+            field:
+              type: text
+              display: 'Email ID'
+  social:
+    display: Social
+    sections:
+      -
+        display: 'Social Links'
+        fields:
+          -
+            handle: social
+            field:
+              type: replicator
+              display: 'Social Links'
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    social:
+                      display: 'Social Link'
+                      fields:
+                        -
+                          handle: class_name
+                          field:
+                            type: text
+                            display: 'Class Name'
+                        -
+                          handle: social_link
+                          field:
+                            type: link
+                            display: 'Social Link'

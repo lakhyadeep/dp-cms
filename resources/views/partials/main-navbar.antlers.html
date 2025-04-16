@@ -1,15 +1,17 @@
 <nav id="navmenu" class="navmenu">
     <ul>
-
         {{ nav:main_nav}}
         <li>
-            <a href="{{url}}">{{title}}</a>
+            <a href="{{ url  }}" class="{{if current_url == permalink }}active{{/if}}">
+                {{ title }}
+            </a>
         </li>
         {{/nav:main_nav}}
 
 
 
-        <!-- <li><a href="about.html" class="">About</a></li>
+        <!-- <li><a href=" about.html" class="">About</a>
+        </li>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>

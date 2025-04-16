@@ -1,0 +1,28 @@
+title: 'Carousel Section'
+fields:
+  -
+    handle: hero_image
+    field:
+      container: assets
+      type: assets
+      display: 'Hero Image'
+  -
+    handle: hero_title
+    field:
+      type: text
+      display: 'Hero Title'
+  -
+    handle: hero_short_description
+    field:
+      type: textarea
+      display: 'Hero Short Description'
+  -
+    handle: hero_button_text
+    field:
+      type: text
+      display: 'Hero Button Text'
+  -
+    handle: hero_button_link
+    field:
+      type: link
+      display: 'Hero Button Link'
