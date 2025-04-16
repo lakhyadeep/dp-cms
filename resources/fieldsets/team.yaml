@@ -1,33 +1,23 @@
 title: 'Team Section'
 fields:
   -
-    handle: team_tittle
-    field:
-      type: text
-      display: 'Team Title'
-  -
-    handle: team_sub_title
-    field:
-      type: textarea
-      display: 'Team Sub Tittle'
-  -
-    handle: team_image
+    handle: member_image
     field:
       container: assets
       type: assets
       display: 'Member Image'
   -
-    handle: team_name
+    handle: member_name
     field:
       type: text
       display: 'Member Name'
   -
-    handle: team_designation
+    handle: member_designation
     field:
       type: text
       display: 'Member Designation'
   -
-    handle: social_media_links
+    handle: member_social_media_links
     field:
       type: replicator
       display: 'Social Media Links'
@@ -39,12 +29,12 @@ fields:
               display: 'Member Social Link'
               fields:
                 -
-                  handle: social_media_class_name
+                  handle: member_social_media_class_name
                   field:
                     type: text
-                    display: 'Social Media Class Name'
+                    display: 'Class Name'
                 -
-                  handle: social_media_link
+                  handle: member_social_media_link
                   field:
                     type: link
                     display: 'Social Media Link'

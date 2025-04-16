@@ -1,0 +1,43 @@
+<section id="team" class="team section light-background">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>{{team_title}}</h2>
+        <p>{{team_sub_title}}</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row gy-4">
+
+            {{team_members}}
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="team-member">
+                    <div class="member-img">
+                        {{member_image}}
+                        <img src="{{url}}" class="img-fluid" alt="">
+                        {{/member_image}}
+                        <div class="social">
+                            {{member_social_media_links}}
+                            {{if member_social_media_link}}
+                            <a href="{{member_social_media_link}}"><i
+                                    class="bi bi-{{member_social_media_class_name}}"></i></a>
+                            {{/if}}
+                            {{ /member_social_media_links}}
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>{{member_name}}</h4>
+                        <span>{{member_designation}}</span>
+                    </div>
+                </div>
+            </div>
+            {{/team_members}}
+            <!-- End Team Member -->
+
+
+        </div>
+
+    </div>
+
+</section>

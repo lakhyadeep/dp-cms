@@ -79,9 +79,53 @@ fields:
               display: 'Team Section'
               fields:
                 -
-                  import: team
+                  handle: team_title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: team_sub_title
+                  field:
+                    type: textarea
+                    display: 'Sub Title'
+                -
+                  handle: team_members
+                  field:
+                    type: replicator
+                    display: 'Team Members'
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          members:
+                            display: Members
+                            fields:
+                              -
+                                import: team
             skill:
               display: 'Skill Section'
               fields:
                 -
-                  import: skill
+                  handle: skill_title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: skill_sub_title
+                  field:
+                    type: textarea
+                    display: 'Sub Title'
+                -
+                  handle: skills
+                  field:
+                    type: replicator
+                    display: Skills
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          skill:
+                            display: Skill
+                            fields:
+                              -
+                                import: skill
